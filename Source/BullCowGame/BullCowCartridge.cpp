@@ -9,6 +9,7 @@ void UBullCowCartridge::BeginPlay() // When the game starts
     PrintLine(TEXT("Guess the 5 letter word"));
     PrintLine(TEXT("Press Enter to continue..."));
     InitGame();    //Game initilaized. Function was created in the header (BullCowCartridge.h) file
+    // Git commit test
 }
 
 void UBullCowCartridge::OnInput(const FString& Input) // When the player hits enter
